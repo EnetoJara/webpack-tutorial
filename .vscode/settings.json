@@ -1,0 +1,285 @@
+{
+    "files.exclude": {
+        "**/node_modues": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingOvertype": "always",
+    "editor.autoClosingQuotes": "always",
+    "css.validate": false,
+    "scss.validate": true,
+    "editor.parameterHints.cycle": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabCompletion": "on",
+    "editor.folding": true,
+    "editor.colorDecorators": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorStyle": "line-thin",
+    "editor.snippetSuggestions": "top",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.simpleDialog.enable": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "bracketPairColorizer.highlightActiveScope": true,
+    "bracketPairColorizer.showBracketsInGutter": true,
+    "bracketPairColorizer.showBracketsInRuler": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "git.allowForcePush": true,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "markdown.preview.breaks": true,
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "npm.validate.enable": true,
+    "vsintellicode.typescript.completionsEnabled": true,
+    "javascript.autoClosingTags": true,
+    "typescript.check.npmIsInstalled": true,
+    "typescript.enablePromptUseWorkspaceTsdk": false,
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.importModuleSpecifierEnding": "auto",
+    "typescript.reportStyleChecksAsWarnings": true,
+    "typescript.disableAutomaticTypeAcquisition": false,
+    "typescript.format.enable": true,
+    "typescript.format.insertSpaceAfterCommaDelimiter": true,
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+    "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+    "typescript.format.semicolons": "insert",
+    "typescriptHero.imports.grouping": [
+        "Plains",
+        "Modules",
+        "Workspace"
+    ],
+    "typescriptHero.imports.insertSpaceBeforeAndAfterImportBraces": true,
+    "typescriptHero.imports.stringQuoteStyle": "\"",
+    "npm.enableRunFromFolder": true,
+    "prettier.configPath": "./.prettierrc",
+    "bracketPairColorizer.colorMode": "Independent",
+    "typescript.autoClosingTags": true,
+    "javascript.suggest.completeJSDocs": true,
+    "javascript.suggest.autoImports": true,
+    "javascript.preferences.quoteStyle": "double",
+    "editor.showUnused": true,
+    "editor.suggest.showInlineDetails": true,
+    "javascript.suggestionActions.enabled": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": false
+    },
+    "editor.quickSuggestionsDelay": 10,
+    "vsintellicode.modify.editor.suggestSelection": "enabled",
+    "vsintellicode.java.completionsEnabled": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.trimAutoWhitespace": true,
+    "typescriptHero.imports.disableImportRemovalOnOrganize": false,
+    "typescriptHero.imports.disableImportsSorting": false,
+    "editor.selectionHighlight": true,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.suggest.localityBonus": true,
+    "editor.wordBasedSuggestions": true,
+    "editor.cursorSurroundingLinesStyle": "all",
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.comments.insertSpace": true,
+    "editor.foldingHighlight": true,
+    "workbench.enableExperiments": true,
+    "javascript.suggest.includeAutomaticOptionalChainCompletions": true,
+    "editor.parameterHints.enabled": true,
+    "editor.matchBrackets": "always",
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    "files.watcherExclude": {
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/scripts/**": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.colorTheme": "Dark++ Italic",
+    "editor.fontFamily": "'Operator Mono','Cascadia Code'",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.autoSurround": "languageDefined",
+    "editor.suggest.showColors": true,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Ubuntu Mono",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.editor.revealIfOpen": true,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.suggest.shareSuggestSelections": true,
+    "files.autoGuessEncoding": true,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.sideBar.location": "right",
+    "files.associations": {
+        "*.ts": "typescript",
+        "babel": "javascript"
+    },
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "prettier.arrowParens": "always",
+    "typescript.tsserver.trace": "messages",
+    "npm-intellisense.scanDevDependencies": true,
+    "npm-intellisense.importQuotes": "\"",
+    "npm-intellisense.packageSubfoldersIntellisense": true,
+    "workbench.colorCustomizations": {
+        "activityBar.activeBorder": "#ffffff",
+        "inputOption.activeBorder": "#0099ff00",
+        "panelTitle.activeBorder": "#ffffff",
+        "editor.background": "#000",
+        "sideBar.background": "#000",
+        "welcomePage.background": "#000",
+        "textCodeBlock.background": "#000",
+        "textBlockQuote.background": "#000",
+        "terminal.background": "#000",
+        "statusBar.background": "#000",
+        "[Dark++ Italic]": {
+            "editorError.foreground": "#ff0000",
+            "menu.border": "#ffaa00",
+            "tab.border": "#ff0000"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Dark++ Italic]": {
+            "keywords": "#ffaa00",
+            "functions": "#00a2ff",
+            "types": "#00ffaa",
+            "strings": "#ffaa00",
+            "numbers": "#FF0000",
+            "comments": "#09ff00",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "keyword.operator",
+                        "keyword",
+                        "keyword.control",
+                        "keyword.operator.arithmetic",
+                        "keyword.operator.assignment",
+                        "keyword.operator.logical",
+                        "keyword.operator.new",
+                        "keyword.other"
+                    ],
+                    "settings": {
+                        "foreground": "#00ffaa",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant",
+                        "constant.character",
+                        "constant.character.escape",
+                        "constant.numeric",
+                        "constant.numeric.float",
+                        "constant.numeric.hex",
+                        "constant.numeric.integer",
+                        "constant.numeric.octal",
+                        "constant.other",
+                        "constant.regexp",
+                        "constant.rgb-value",
+                        "support.constant"
+                    ],
+                    "settings": {
+                        "foreground": "#ffaa00",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "emphasis",
+                        "entity",
+                        "entity.name",
+                        "entity.name.*",
+                    ],
+                    "settings": {
+                        "foreground": "#FFaa00",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
+    },
+    "workbench.editor.showTabs": true,
+    "editor.fontWeight": "300",
+    "workbench.iconTheme": "vscode-icons",
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    "vsintellicode.modelDownloadPath": "settings.json",
+    "typescript.suggest.completeJSDocs": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.suggest.autoImports": true,
+    "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+    "typescript.validate.enable": true,
+    "typescript.locale": "es",
+    "typescript.preferences.quoteStyle": "double",
+    "comment-ts.parseNames": true,
+    "comment-ts.scoped": true,
+    "comments.openPanel": "openOnSessionStartWithComments",
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "explorer.sortOrder": "type",
+    "search.quickOpen.history.filterSortOrder": "recency",
+    "search.sortOrder": "countDescending",
+    "autoimport.doubleQuotes": true,
+    "editor.fontSize": 20,
+    "terminal.integrated.fontWeightBold": "900",
+    "git.confirmSync": false,
+    "window.zoomLevel": -1,
+    "terminal.integrated.fontSize": 23,
+    "terminal.integrated.lineHeight": 1.2,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.find.autoFindInSelection": "always",
+    "editor.codeLens": true,
+    "editor.hover.enabled": true,
+    "editor.renderFinalNewline": true,
+    "npm.autoDetect": "on",
+    "npm-intellisense.importDeclarationType": "const",
+    "npm-intellisense.importES6": true,
+    "npm-intellisense.importLinebreak": ";\r\n",
+    "npm-intellisense.recursivePackageJsonLookup": true,
+    "npm-intellisense.showBuildInLibs": true
+}
