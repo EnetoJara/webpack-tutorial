@@ -4,6 +4,7 @@
     "description": "Este proyecto es un tutorial para empezar tu propio servidor con typescript y webpack",
     "main": "./dist/index.js",
     "type": "commonjs",
+    "repository": "git@github.com:EnetoJara/webpack-tutorial.git",
     "keywords": [
         "tutorial",
         "webpack",
@@ -15,7 +16,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "nodemon",
-        "lint": "eslint --config ./.eslintrc.json \"./src/**/*.ts\" --fix --color"
+        "lint": "eslint --config ./.eslintrc.json \"./src/**/*.ts\" --fix --color",
+        "pretty": "pretty --config ./.prettierrc \"./src/**/*.ts\" --fix --color"
     },
     "author": "Ernesto Jara Olveda",
     "license": "Apache-2.0",
