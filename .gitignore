@@ -4,6 +4,7 @@
 /error.log
 /warn.log
 /backup
+/bundle
 /css
 /src/components/icons/
 /tsBuildInfoFile.json

@@ -1,0 +1,74 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "target": "es2019",
+        "composite": true,
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext",
+            "ES2015",
+            "ES2016",
+            "ES2017",
+            "ES2018",
+            "ES2019"
+        ],
+        "allowJs": false,
+        "checkJs": false,
+        "jsx": "preserve",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "./build",
+        "rootDir": ".",
+        "tsBuildInfoFile": "./api/tsBuildInfoFile.json",
+        "isolatedModules": true,
+        "typeRoots": [
+            "../types/server/index.d.ts"
+        ],
+        "moduleResolution": "node",
+        "baseUrl": "./node_modules",
+        "importHelpers": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "alwaysStrict": true,
+        "assumeChangesOnlyAffectDirectDependencies": true,
+        "allowUnusedLabels": false,
+        "paths": {
+            "express": [
+                "../types/express/index.d.ts"
+            ],
+            "*": [
+                "./*",
+                "./@types/*"
+            ],
+        },
+        "types": [
+            "node",
+            "express",
+            "cors",
+            "body-parser",
+        ],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": false,
+        "skipLibCheck": false,
+        "forceConsistentCasingInFileNames": true,
+        "pretty": true
+    },
+    "exclude": [
+        "node_modules",
+        "api",
+        "config"
+    ],
+    "include": [
+        "./src/*.ts",
+        "./src/**/*.ts",
+        "./src/**/**/*.ts",
+        "./src/**/**/**/*.ts",
+        "./src/**/**/**/**/*.ts",
+        "./src/**/**/**/**/**/*.ts",
+        "./types/**/*",
+        "./types/*",
+    ]
+}

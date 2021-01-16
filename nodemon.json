@@ -4,5 +4,5 @@
         "src"
     ],
     "ext": "ts",
-    "exec": "webpack --mode=development --config=config/webpack.js --stats --colors && node ./bundle/main-bundle.js"
+    "exec": "NODE_ENV=development webpack --mode=development --config=config/webpack.js --stats && node ./bundle/main-bundle.js"
 }
