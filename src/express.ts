@@ -3,6 +3,7 @@ import { json, urlencoded, Request, Response, NextFunction } from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import fileExpress from "express-fileupload";
+import routes from "./routes";
 
 import express from "express";
 
@@ -22,6 +23,7 @@ export default function expressApp () {
     app.use(cookieParser(process.env.ENETO_PRIVATE));
     app.use(cors());
     app.use(json());
+    app.use(routes());
     app.use(urlencoded({ extended: true, limit: "5m" }));
     app.disable("x-powered-by");
 
