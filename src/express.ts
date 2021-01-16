@@ -1,5 +1,4 @@
-
-import { json, urlencoded, Request, Response, NextFunction } from "express";
+import { json, urlencoded, Request, Response, Express, NextFunction } from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import fileExpress from "express-fileupload";
@@ -7,14 +6,16 @@ import routes from "./routes";
 
 import express from "express";
 
-export default function expressApp () {
+export default function expressApp (): Express {
     const app = express();
+
     app.use(fileExpress());
     app.use(function (req: Request, res: Response, next: NextFunction): void {
         const aux = req.headers[ "x-forwarded-for" ] as string;
 
-        var xForwardedFor = (aux || "").replace(/:\d+$/, "");
-        var ip = xForwardedFor || req.socket.remoteAddress;
+        const xForwardedFor = (aux || "").replace(/:\d+$/, "");
+        const ip = xForwardedFor || req.socket.remoteAddress;
+
         req.userIp = ip;
 
         next();

@@ -1,6 +1,6 @@
 import { Router, Request, Response } from "express";
 
-export default function routes () {
+export default function routes (): Router {
     const api = Router();
 
     api.get("/api/hola-mundo", (req: Request, res: Response) => {
