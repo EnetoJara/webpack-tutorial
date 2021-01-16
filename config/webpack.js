@@ -7,7 +7,7 @@ const webpack = require("webpack");
 const vars = require("./env");
 const { NODE_ENV = "development" } = process.env;
 const isProd = NODE_ENV === "production";
-const entry = [path.join(__dirname, NODE_ENV === "production" ? `../src/prod.ts` : `../src/dev.ts`)];
+const entry = [path.join(__dirname, isProd ? `../src/prod.ts` : `../src/dev.ts`)];
 
 module.exports = {
     target: "node",
